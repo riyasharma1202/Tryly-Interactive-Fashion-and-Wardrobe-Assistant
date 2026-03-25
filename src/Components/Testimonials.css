@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+.testimonials {
+  font-family: 'Poppins', sans-serif;
+  padding: 80px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-test {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.title-test h5 {
+  color: #eb6d2f;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+  animation: fadeIn 1s ease-out;
+}
+
+.title-test h2 {
+  font-size: 36px;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 50px;
+  animation: fadeInUp 1.2s ease-out;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 14px;
+  height: 14px;
+  background: #ddd;
+  border-radius: 50%;
+  margin: 8px;
+  transition: transform 0.3s, background 0.3s;
+  cursor: pointer;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #eb6d2f;
+  transform: scale(1.3);
+}
+
+.item-test {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 16px;
+  transition: all 0.4s ease;
+  transform: translateY(20px);
+  opacity: 0;
+  animation: fadeInUp 1.2s ease forwards;
+}
+
+.item-test:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.profile-test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.profile-test img {
+  width: 70px !important;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #eb6d2f;
+  box-shadow: 0 4px 10px rgba(235, 109, 47, 0.3);
+  transition: all 0.3s;
+}
+
+.profile-test img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(235, 109, 47, 0.5);
+}
+
+.information {
+  margin-left: 18px;
+  text-align: left;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.role {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.feedback {
+  font-size: 17px;
+  color: #444;
+  line-height: 1.8;
+  font-style: italic;
+  margin: 25px 0;
+  text-align: center;
+  position: relative;
+}
+
+.feedback::before,
+.feedback::after {
+  content: "“";
+  font-size: 30px;
+  color: #eb6d2f;
+  font-weight: bold;
+  position: absolute;
+}
+
+.feedback::before {
+  left: -10px;
+  top: -10px;
+}
+
+.feedback::after {
+  right: -10px;
+  bottom: -10px;
+}
+
+.quote-icon {
+  font-size: 28px;
+  color: #eb6d2f;
+  margin-top: 10px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

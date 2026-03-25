@@ -1,0 +1,102 @@
+[
+  {
+    "id": 11,
+    "name": "Floral Summer Dress",
+    "description": "Beautiful floral dress perfect for summer outings",
+    "imgSrc": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80",
+    "price": 2499,
+    "discount": 20,
+    "season": "summer",
+    "category": "tops"
+  },
+  {
+    "id": 12,
+    "name": "Black Pencil Skirt",
+    "description": "Formal pencil skirt for professional settings",
+    "imgSrc": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&q=80",
+    "price": 1899,
+    "discount": 15,
+    "season": "all",
+    "category": "bottoms"
+  },
+  {
+    "id": 13,
+    "name": "White Blouse",
+    "description": "Elegant white blouse for formal occasions",
+    "imgSrc": "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=800&q=80",
+    "price": 1599,
+    "discount": 18,
+    "season": "all",
+    "category": "tops"
+  },
+  {
+    "id": 14,
+    "name": "Blue Jeans",
+    "description": "Skinny fit blue jeans for casual wear",
+    "imgSrc": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&q=80",
+    "price": 2299,
+    "discount": 20,
+    "season": "all",
+    "category": "bottoms"
+  },
+  {
+    "id": 15,
+    "name": "Crop Top",
+    "description": "Trendy crop top for casual outings",
+    "imgSrc": "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=800&q=80",
+    "price": 899,
+    "discount": 12,
+    "season": "summer",
+    "category": "tops"
+  },
+  {
+    "id": 16,
+    "name": "Long Coat",
+    "description": "Stylish long coat for winter season",
+    "imgSrc": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800&q=80",
+    "price": 5999,
+    "discount": 28,
+    "season": "winter",
+    "category": "tops"
+  },
+  {
+    "id": 17,
+    "name": "High Heels",
+    "description": "Classic black heels for formal events",
+    "imgSrc": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80",
+    "price": 2999,
+    "discount": 20,
+    "season": "all",
+    "category": "shoes"
+  },
+  {
+    "id": 18,
+    "name": "Maxi Dress",
+    "description": "Elegant maxi dress for party occasions",
+    "imgSrc": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&q=80",
+    "price": 3499,
+    "discount": 25,
+    "season": "summer",
+    "category": "tops"
+  },
+  {
+    "id": 19,
+    "name": "Leather Handbag",
+    "description": "Premium leather handbag for daily use",
+    "imgSrc": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80",
+    "price": 4999,
+    "discount": 22,
+    "season": "all",
+    "category": "accessories"
+  },
+  {
+    "id": 20,
+    "name": "Palazzo Pants",
+    "description": "Comfortable palazzo pants for casual wear",
+    "imgSrc": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=80",
+    "price": 1799,
+    "discount": 16,
+    "season": "summer",
+    "category": "bottoms"
+  }
+]

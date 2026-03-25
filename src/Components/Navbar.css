@@ -1,0 +1,191 @@
+/* General Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  font-family: "Playfair Display", serif;
+  color: #000000;
+  position: relative;
+  top: 0;
+  width: 100vw;
+  z-index: 1000;
+  background-color: rgb(254, 255, 240);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+.navbar:hover {
+  background: rgba(252, 255, 225, 0.95);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-section {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Search Bar - Left Side */
+.searchbar {
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  padding: 5px 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 250px;
+  flex: 1; /* Takes up equal space */
+}
+
+.searchbar:hover {
+  transform: scale(1.02);
+  box-shadow: inset 0 3px 6px rgba(82, 84, 0, 0.15);
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  color: #000000;
+  font-size: 1rem;
+  outline: none;
+  margin-left: 10px;
+  width: 100%;
+  padding: 8px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+/* Logo - Centered */
+.logo {
+  flex: 1; /* Takes up equal space */
+  display: flex;
+  justify-content: center; /* Center the logo */
+  align-items: center;
+}
+
+.logo .brand-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  animation: fade-in 1s ease-in-out;
+  margin: 0;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Account and Cart - Right Side */
+.account-cart {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end; /* Push items to the right */
+  flex: 1; /* Takes up equal space */
+}
+
+.account, .cart, .recommendations {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 8px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.account:hover .acc-h3,
+.cart:hover .acc-h3,
+.wardrobe:hover .acc-h3,
+.recommendations:hover .acc-h3 {
+  transform: scale(1.05);
+  color: #6a5acd;
+}
+
+.account .icon, .cart .icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  object-fit: contain;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+h3.acc-h3 {
+  font-size: 1.1rem;
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+  }
+
+  .navbar-section {
+    margin-bottom: 1rem;
+  }
+
+  .searchbar {
+    min-width: 100%;
+    flex: none;
+  }
+
+  .logo {
+    flex: none;
+    margin-bottom: 1rem;
+  }
+
+  .brand-name {
+    font-size: 2rem;
+  }
+
+  .account-cart {
+    gap: 20px;
+    flex: none;
+    justify-content: center;
+  }
+
+  .account, .cart, .wardrobe, .recommendations {
+    padding: 5px;
+  }
+
+  .searchbar {
+    margin-bottom: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .search-input {
+    width: 150px;
+  }
+}

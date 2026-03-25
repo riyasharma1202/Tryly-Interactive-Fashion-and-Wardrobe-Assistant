@@ -1,0 +1,344 @@
+/* Header image section */
+.image-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  max-height: 300px;
+}
+
+.shop-by-skin-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.highlight-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section-description {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Steps section */
+.steps-section {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.step.active .step-number {
+  background: #007bff;
+  color: white;
+}
+
+.step-content {
+  flex-grow: 1;
+}
+
+.step-content h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.step-content p {
+  margin: 0 0 15px 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.prediction-result {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.prediction-result ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.prediction-result li {
+  margin: 5px 0;
+}
+
+.skin-tone-box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #333;
+  margin-top: 10px;
+}
+
+/* Camera section */
+.camera-section {
+  flex: 1;
+  min-width: 400px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.camera-placeholder {
+  text-align: center;
+}
+
+.camera-placeholder img {
+  max-width: 100%;
+  max-height: 400px;
+  margin-bottom: 20px;
+}
+
+.camera-active {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.camera-feed {
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  background: #000;
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
+}
+
+.captured-image {
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Content container */
+.content-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  gap: 40px;
+  flex-wrap: nowrap;
+}
+
+/* Trusted companies (products) */
+.trusted-companies {
+  margin-top: 20px;
+  width: 100%;
+  max-width: none;
+  padding: 0;
+}
+
+.trusted-companies .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-inner {
+  position: relative;
+}
+
+.imgBox img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconBox img {
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  padding: 15px;
+}
+
+.content h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.content p {
+  margin: 0 0 10px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+  display: flex;
+  gap: 8px;
+}
+
+.content li {
+  padding: 5px 10px;
+  background: var(--clr-tag);
+  color: white;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.price-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+.discount {
+  color: #ff6b6b;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.add-to-cart, .like-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-to-cart {
+  background: #ff6b6b;
+  color: white;
+}
+
+.add-to-cart:hover {
+  background: #ff5252;
+}
+
+.like-button {
+  background: #eee;
+}
+
+/* Button styles */
+.action-button {
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  background-color: #ff5252;
+}
+
+.capture-button {
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.capture-button:hover {
+  background-color: #ff5252;
+}
+
+.stop-button {
+  padding: 10px 20px;
+  background-color: #666;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.stop-button:hover {
+  background-color: #555;
+}
+
+.retake-button {
+  padding: 10px 20px;
+  background-color: #666;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+.retake-button:hover {
+  background-color: #555;
+}

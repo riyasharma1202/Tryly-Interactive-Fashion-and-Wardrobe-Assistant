@@ -1,0 +1,113 @@
+/* Custom Form Styles */
+.custom-form {
+    --input-focus: #2d8cf0;
+    --font-color: #323232;
+    --font-color-sub: #666;
+    --bg-color: #f0f8ff;
+    --main-color: #003366;
+    padding: 25px;
+    background: #e6f7ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 8px;
+    border: 2px solid var(--main-color);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 100px auto;
+  }
+  
+  .custom-form-title {
+    color: var(--font-color);
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .custom-form-title span {
+    color: var(--font-color-sub);
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .custom-form-input {
+    width: 280px;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--font-color);
+    padding: 10px;
+    outline: none;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-form-input::placeholder {
+    color: var(--font-color-sub);
+  }
+  
+  .custom-form-input:focus {
+    border-color: var(--input-focus);
+    box-shadow: 0 0 6px var(--input-focus);
+  }
+  
+  .custom-form-login-with {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .custom-form-button-log {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+    color: var(--font-color);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .custom-form-button-log:active {
+    transform: scale(0.95);
+  }
+  
+  .custom-form-icon {
+    width: 28px;
+    height: 28px;
+    fill: var(--main-color);
+  }
+  
+  .custom-form-button-confirm {
+    margin-top: 20px;
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--font-color);
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .custom-form-button-confirm:hover {
+    background-color: var(--main-color);
+    color: #fff;
+  }
+  
+  .custom-form-button-confirm:active {
+    transform: scale(0.95);
+  }
+  

@@ -1,0 +1,68 @@
+/* Import a modern and thin font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/* General Header Styles */
+.nike-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+  position: relative;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif;
+  width: 100vw;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Navigation Styles */
+.nike-header__nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nike-header__nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nike-header__nav li {
+  font-size: 18px;
+}
+
+.nike-header__nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  transition: color 0.3s ease-in-out, font-weight 0.3s ease-in-out, transform 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+
+/* Hover Effect */
+.nike-header__nav a:hover {
+  color: #f5a623;
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .nike-header__nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nike-header__nav li {
+    font-size: 16px;
+  }
+}

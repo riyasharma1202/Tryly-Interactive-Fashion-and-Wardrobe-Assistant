@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Classic White Shirt",
+    "description": "Formal white cotton shirt perfect for office wear",
+    "imgSrc": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&q=80",
+    "price": 1299,
+    "discount": 20,
+    "season": "all",
+    "category": "tops"
+  },
+  {
+    "id": 2,
+    "name": "Blue Denim Jeans",
+    "description": "Classic fit blue jeans for casual wear",
+    "imgSrc": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&q=80",
+    "price": 2499,
+    "discount": 15,
+    "season": "all",
+    "category": "bottoms"
+  },
+  {
+    "id": 3,
+    "name": "Black Formal Blazer",
+    "description": "Professional black blazer for formal occasions",
+    "imgSrc": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80",
+    "price": 4999,
+    "discount": 25,
+    "season": "winter",
+    "category": "tops"
+  },
+  {
+    "id": 4,
+    "name": "Casual T-Shirt",
+    "description": "Comfortable cotton t-shirt for everyday wear",
+    "imgSrc": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80",
+    "price": 799,
+    "discount": 10,
+    "season": "summer",
+    "category": "tops"
+  },
+  {
+    "id": 5,
+    "name": "Chino Pants",
+    "description": "Slim fit chino pants for smart casual look",
+    "imgSrc": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800&q=80",
+    "price": 1899,
+    "discount": 18,
+    "season": "all",
+    "category": "bottoms"
+  },
+  {
+    "id": 6,
+    "name": "Leather Jacket",
+    "description": "Trendy black leather jacket for winter",
+    "imgSrc": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&q=80",
+    "price": 6999,
+    "discount": 30,
+    "season": "winter",
+    "category": "tops"
+  },
+  {
+    "id": 7,
+    "name": "Formal Trousers",
+    "description": "Professional black formal trousers",
+    "imgSrc": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800&q=80",
+    "price": 1699,
+    "discount": 20,
+    "season": "all",
+    "category": "bottoms"
+  },
+  {
+    "id": 8,
+    "name": "Sneakers",
+    "description": "Comfortable white sneakers for casual wear",
+    "imgSrc": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&q=80",
+    "price": 3499,
+    "discount": 22,
+    "season": "all",
+    "category": "shoes"
+  },
+  {
+    "id": 9,
+    "name": "Polo Shirt",
+    "description": "Classic polo shirt for smart casual occasions",
+    "imgSrc": "https://images.unsplash.com/photo-1626497764746-6dc36546b388?w=800&q=80",
+    "price": 1199,
+    "discount": 15,
+    "season": "summer",
+    "category": "tops"
+  },
+  {
+    "id": 10,
+    "name": "Joggers",
+    "description": "Comfortable joggers for sports and casual wear",
+    "imgSrc": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&q=80",
+    "price": 1499,
+    "discount": 18,
+    "season": "all",
+    "category": "bottoms"
+  }
+]

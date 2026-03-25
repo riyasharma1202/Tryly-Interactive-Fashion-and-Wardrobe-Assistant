@@ -1,0 +1,99 @@
+/* Container */
+.skinup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #008fd3;
+  padding: 20px;
+  color: #fff;
+}
+
+/* Background Image */
+.skinup-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Upload Section */
+.upload-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.upload-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.upload-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.camera-button,
+.file-upload input[type="file"] {
+  background-color: #ff2849;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.camera-button:hover,
+.file-upload:hover input[type="file"] {
+  background-color: #e52441;
+}
+
+/* Camera Feed */
+.camera-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.camera-controls button {
+  margin: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007acc;
+  color: white;
+  cursor: pointer;
+}
+
+.camera-controls button:hover {
+  background-color: #005a9e;
+}
+
+/* Photo Preview */
+.photo-preview {
+  margin-top: 20px;
+}
+
+.photo-preview img {
+  width: 300px;
+  height: auto;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Uploaded Photo */
+.uploaded-photo img {
+  max-width: 300px;
+  border: 2px dashed #fff;
+  margin-top: 10px;
+}
+
+/* Decorative Border */
+.decorative-border {
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
